@@ -1,0 +1,40 @@
+{
+"name": "First Scenario",
+"processing_elements": [
+{
+"type": "List",
+"input_entries": [
+{
+"type": "local",
+"path": "C://downloads/SampleCityNamesInCanada_copy_copy_copy_copy_copy_copy_copy.txt"
+}
+],
+"parameters": [
+{
+"name": "Max",
+"value": "100"
+}
+]
+},
+{
+"type": "LengthFilter",
+"input_entries": [],
+"parameters": [
+{
+"name": "Length",
+"value": "1024"
+},
+{
+"name": "Operator",
+"value": "GTE"
+}
+]
+},
+{
+"type": "Print",
+"input_entries": [],
+"parameters": []
+}
+]
+}
+
